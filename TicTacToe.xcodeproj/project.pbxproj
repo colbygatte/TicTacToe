@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A9B7C553CA2C6A36AF611EDD /* Pods_TicTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38FF665A22B04C07871FD5B /* Pods_TicTacToe.framework */; };
+		E96A6A941E0B346B00AB0CA2 /* TicUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96A6A931E0B346B00AB0CA2 /* TicUser.swift */; };
+		E96A6A961E0B3E2800AB0CA2 /* TicGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96A6A951E0B3E2800AB0CA2 /* TicGames.swift */; };
 		E9F8F49E1E09DE3D002DAF99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8F49D1E09DE3D002DAF99 /* AppDelegate.swift */; };
 		E9F8F4A31E09DE3D002DAF99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F8F4A11E09DE3D002DAF99 /* Main.storyboard */; };
 		E9F8F4A51E09DE3D002DAF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F8F4A41E09DE3D002DAF99 /* Assets.xcassets */; };
@@ -20,14 +22,14 @@
 		E9F8F4BE1E09E03C002DAF99 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8F4BD1E09E03C002DAF99 /* App.swift */; };
 		E9F8F4C01E09E049002DAF99 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8F4BF1E09E049002DAF99 /* DB.swift */; };
 		E9F8F4C21E09E083002DAF99 /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F8F4C11E09E083002DAF99 /* TODO.txt */; };
-		E9F8F4C41E09F091002DAF99 /* FancyTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F8F4C31E09F091002DAF99 /* FancyTextField.xib */; };
-		E9F8F4C61E09F0C1002DAF99 /* FancyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8F4C51E09F0C1002DAF99 /* FancyTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6F0295D19093E4143DCE868F /* Pods-TicTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe.debug.xcconfig"; sourceTree = "<group>"; };
 		DBBB8733E5F8368F105C5AD7 /* Pods-TicTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe.release.xcconfig"; sourceTree = "<group>"; };
 		E38FF665A22B04C07871FD5B /* Pods_TicTacToe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTacToe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E96A6A931E0B346B00AB0CA2 /* TicUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicUser.swift; sourceTree = "<group>"; };
+		E96A6A951E0B3E2800AB0CA2 /* TicGames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicGames.swift; sourceTree = "<group>"; };
 		E9F8F49A1E09DE3D002DAF99 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F8F49D1E09DE3D002DAF99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9F8F4A21E09DE3D002DAF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,8 +44,6 @@
 		E9F8F4BD1E09E03C002DAF99 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		E9F8F4BF1E09E049002DAF99 /* DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
 		E9F8F4C11E09E083002DAF99 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
-		E9F8F4C31E09F091002DAF99 /* FancyTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FancyTextField.xib; sourceTree = "<group>"; };
-		E9F8F4C51E09F0C1002DAF99 /* FancyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,6 @@
 			children = (
 				E9F8F4A11E09DE3D002DAF99 /* Main.storyboard */,
 				E9F8F4B51E09DF80002DAF99 /* Login.storyboard */,
-				E9F8F4C31E09F091002DAF99 /* FancyTextField.xib */,
 			);
 			name = Storyboards;
 			sourceTree = "<group>";
@@ -117,7 +116,6 @@
 				E9F8F4B71E09DF8D002DAF99 /* MainViewController.swift */,
 				E9F8F4B91E09DF9B002DAF99 /* LoginViewController.swift */,
 				E9F8F4BB1E09DFA7002DAF99 /* RegisterViewController.swift */,
-				E9F8F4C51E09F0C1002DAF99 /* FancyTextField.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -125,6 +123,8 @@
 		E9F8F4B31E09DF50002DAF99 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E96A6A931E0B346B00AB0CA2 /* TicUser.swift */,
+				E96A6A951E0B3E2800AB0CA2 /* TicGames.swift */,
 				E9F8F4BD1E09E03C002DAF99 /* App.swift */,
 				E9F8F4BF1E09E049002DAF99 /* DB.swift */,
 			);
@@ -203,7 +203,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9F8F4A81E09DE3D002DAF99 /* LaunchScreen.storyboard in Resources */,
-				E9F8F4C41E09F091002DAF99 /* FancyTextField.xib in Resources */,
 				E9F8F4B01E09DEF2002DAF99 /* GoogleService-Info.plist in Resources */,
 				E9F8F4C21E09E083002DAF99 /* TODO.txt in Resources */,
 				E9F8F4A51E09DE3D002DAF99 /* Assets.xcassets in Resources */,
@@ -270,9 +269,10 @@
 				E9F8F4BA1E09DF9B002DAF99 /* LoginViewController.swift in Sources */,
 				E9F8F49E1E09DE3D002DAF99 /* AppDelegate.swift in Sources */,
 				E9F8F4B81E09DF8D002DAF99 /* MainViewController.swift in Sources */,
+				E96A6A941E0B346B00AB0CA2 /* TicUser.swift in Sources */,
 				E9F8F4BE1E09E03C002DAF99 /* App.swift in Sources */,
-				E9F8F4C61E09F0C1002DAF99 /* FancyTextField.swift in Sources */,
 				E9F8F4BC1E09DFA7002DAF99 /* RegisterViewController.swift in Sources */,
+				E96A6A961E0B3E2800AB0CA2 /* TicGames.swift in Sources */,
 				E9F8F4C01E09E049002DAF99 /* DB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
