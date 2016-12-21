@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9B7C553CA2C6A36AF611EDD /* Pods_TicTacToe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38FF665A22B04C07871FD5B /* Pods_TicTacToe.framework */; };
+		E9F8F49E1E09DE3D002DAF99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8F49D1E09DE3D002DAF99 /* AppDelegate.swift */; };
+		E9F8F4A31E09DE3D002DAF99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F8F4A11E09DE3D002DAF99 /* Main.storyboard */; };
+		E9F8F4A51E09DE3D002DAF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F8F4A41E09DE3D002DAF99 /* Assets.xcassets */; };
+		E9F8F4A81E09DE3D002DAF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F8F4A61E09DE3D002DAF99 /* LaunchScreen.storyboard */; };
+		E9F8F4B01E09DEF2002DAF99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9F8F4AF1E09DEF2002DAF99 /* GoogleService-Info.plist */; };
+		E9F8F4B61E09DF80002DAF99 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F8F4B51E09DF80002DAF99 /* Login.storyboard */; };
+		E9F8F4B81E09DF8D002DAF99 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8F4B71E09DF8D002DAF99 /* MainViewController.swift */; };
+		E9F8F4BA1E09DF9B002DAF99 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8F4B91E09DF9B002DAF99 /* LoginViewController.swift */; };
+		E9F8F4BC1E09DFA7002DAF99 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8F4BB1E09DFA7002DAF99 /* RegisterViewController.swift */; };
+		E9F8F4BE1E09E03C002DAF99 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8F4BD1E09E03C002DAF99 /* App.swift */; };
+		E9F8F4C01E09E049002DAF99 /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8F4BF1E09E049002DAF99 /* DB.swift */; };
+		E9F8F4C21E09E083002DAF99 /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F8F4C11E09E083002DAF99 /* TODO.txt */; };
+		E9F8F4C41E09F091002DAF99 /* FancyTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9F8F4C31E09F091002DAF99 /* FancyTextField.xib */; };
+		E9F8F4C61E09F0C1002DAF99 /* FancyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F8F4C51E09F0C1002DAF99 /* FancyTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F0295D19093E4143DCE868F /* Pods-TicTacToe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe.debug.xcconfig"; sourceTree = "<group>"; };
+		DBBB8733E5F8368F105C5AD7 /* Pods-TicTacToe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TicTacToe.release.xcconfig"; path = "Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe.release.xcconfig"; sourceTree = "<group>"; };
+		E38FF665A22B04C07871FD5B /* Pods_TicTacToe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TicTacToe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F8F49A1E09DE3D002DAF99 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F8F49D1E09DE3D002DAF99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9F8F4A21E09DE3D002DAF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9F8F4A41E09DE3D002DAF99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9F8F4A71E09DE3D002DAF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9F8F4A91E09DE3D002DAF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F8F4AF1E09DEF2002DAF99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E9F8F4B51E09DF80002DAF99 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		E9F8F4B71E09DF8D002DAF99 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E9F8F4B91E09DF9B002DAF99 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E9F8F4BB1E09DFA7002DAF99 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E9F8F4BD1E09E03C002DAF99 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		E9F8F4BF1E09E049002DAF99 /* DB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		E9F8F4C11E09E083002DAF99 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		E9F8F4C31E09F091002DAF99 /* FancyTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FancyTextField.xib; sourceTree = "<group>"; };
+		E9F8F4C51E09F0C1002DAF99 /* FancyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F8F4971E09DE3D002DAF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B7C553CA2C6A36AF611EDD /* Pods_TicTacToe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4602E915811C889BF50369E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F0295D19093E4143DCE868F /* Pods-TicTacToe.debug.xcconfig */,
+				DBBB8733E5F8368F105C5AD7 /* Pods-TicTacToe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9F8F4911E09DE3D002DAF99 = {
+			isa = PBXGroup;
+			children = (
+				E9F8F49C1E09DE3D002DAF99 /* TicTacToe */,
+				E9F8F49B1E09DE3D002DAF99 /* Products */,
+				C4602E915811C889BF50369E /* Pods */,
+				EE958014042C75169668CEC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F8F49B1E09DE3D002DAF99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F8F49A1E09DE3D002DAF99 /* TicTacToe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F8F49C1E09DE3D002DAF99 /* TicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				E9F8F4B11E09DF40002DAF99 /* Storyboards */,
+				E9F8F4B21E09DF4A002DAF99 /* Controllers */,
+				E9F8F4B31E09DF50002DAF99 /* Models */,
+				E9F8F49D1E09DE3D002DAF99 /* AppDelegate.swift */,
+				E9F8F4C11E09E083002DAF99 /* TODO.txt */,
+				E9F8F4A41E09DE3D002DAF99 /* Assets.xcassets */,
+				E9F8F4A61E09DE3D002DAF99 /* LaunchScreen.storyboard */,
+				E9F8F4A91E09DE3D002DAF99 /* Info.plist */,
+				E9F8F4AF1E09DEF2002DAF99 /* GoogleService-Info.plist */,
+			);
+			path = TicTacToe;
+			sourceTree = "<group>";
+		};
+		E9F8F4B11E09DF40002DAF99 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E9F8F4A11E09DE3D002DAF99 /* Main.storyboard */,
+				E9F8F4B51E09DF80002DAF99 /* Login.storyboard */,
+				E9F8F4C31E09F091002DAF99 /* FancyTextField.xib */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		E9F8F4B21E09DF4A002DAF99 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9F8F4B71E09DF8D002DAF99 /* MainViewController.swift */,
+				E9F8F4B91E09DF9B002DAF99 /* LoginViewController.swift */,
+				E9F8F4BB1E09DFA7002DAF99 /* RegisterViewController.swift */,
+				E9F8F4C51E09F0C1002DAF99 /* FancyTextField.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E9F8F4B31E09DF50002DAF99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9F8F4BD1E09E03C002DAF99 /* App.swift */,
+				E9F8F4BF1E09E049002DAF99 /* DB.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EE958014042C75169668CEC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E38FF665A22B04C07871FD5B /* Pods_TicTacToe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F8F4991E09DE3D002DAF99 /* TicTacToe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F8F4AC1E09DE3D002DAF99 /* Build configuration list for PBXNativeTarget "TicTacToe" */;
+			buildPhases = (
+				4A2CB34D5D8A6E303E1F073C /* [CP] Check Pods Manifest.lock */,
+				E9F8F4961E09DE3D002DAF99 /* Sources */,
+				E9F8F4971E09DE3D002DAF99 /* Frameworks */,
+				E9F8F4981E09DE3D002DAF99 /* Resources */,
+				E0F2C5CC0E8A94E538F035F5 /* [CP] Embed Pods Frameworks */,
+				85719760A7A5F38707F7790C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicTacToe;
+			productName = TicTacToe;
+			productReference = E9F8F49A1E09DE3D002DAF99 /* TicTacToe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F8F4921E09DE3D002DAF99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = colbyg;
+				TargetAttributes = {
+					E9F8F4991E09DE3D002DAF99 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6BTW725B4B;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E9F8F4951E09DE3D002DAF99 /* Build configuration list for PBXProject "TicTacToe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F8F4911E09DE3D002DAF99;
+			productRefGroup = E9F8F49B1E09DE3D002DAF99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F8F4991E09DE3D002DAF99 /* TicTacToe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F8F4981E09DE3D002DAF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F8F4A81E09DE3D002DAF99 /* LaunchScreen.storyboard in Resources */,
+				E9F8F4C41E09F091002DAF99 /* FancyTextField.xib in Resources */,
+				E9F8F4B01E09DEF2002DAF99 /* GoogleService-Info.plist in Resources */,
+				E9F8F4C21E09E083002DAF99 /* TODO.txt in Resources */,
+				E9F8F4A51E09DE3D002DAF99 /* Assets.xcassets in Resources */,
+				E9F8F4B61E09DF80002DAF99 /* Login.storyboard in Resources */,
+				E9F8F4A31E09DE3D002DAF99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A2CB34D5D8A6E303E1F073C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		85719760A7A5F38707F7790C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F2C5CC0E8A94E538F035F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TicTacToe/Pods-TicTacToe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F8F4961E09DE3D002DAF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F8F4BA1E09DF9B002DAF99 /* LoginViewController.swift in Sources */,
+				E9F8F49E1E09DE3D002DAF99 /* AppDelegate.swift in Sources */,
+				E9F8F4B81E09DF8D002DAF99 /* MainViewController.swift in Sources */,
+				E9F8F4BE1E09E03C002DAF99 /* App.swift in Sources */,
+				E9F8F4C61E09F0C1002DAF99 /* FancyTextField.swift in Sources */,
+				E9F8F4BC1E09DFA7002DAF99 /* RegisterViewController.swift in Sources */,
+				E9F8F4C01E09E049002DAF99 /* DB.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9F8F4A11E09DE3D002DAF99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F8F4A21E09DE3D002DAF99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9F8F4A61E09DE3D002DAF99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9F8F4A71E09DE3D002DAF99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9F8F4AA1E09DE3D002DAF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9F8F4AB1E09DE3D002DAF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9F8F4AD1E09DE3D002DAF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0295D19093E4143DCE868F /* Pods-TicTacToe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BTW725B4B;
+				INFOPLIST_FILE = TicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colbyg.TicTacToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E9F8F4AE1E09DE3D002DAF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBB8733E5F8368F105C5AD7 /* Pods-TicTacToe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6BTW725B4B;
+				INFOPLIST_FILE = TicTacToe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.colbyg.TicTacToe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F8F4951E09DE3D002DAF99 /* Build configuration list for PBXProject "TicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F8F4AA1E09DE3D002DAF99 /* Debug */,
+				E9F8F4AB1E09DE3D002DAF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F8F4AC1E09DE3D002DAF99 /* Build configuration list for PBXNativeTarget "TicTacToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F8F4AD1E09DE3D002DAF99 /* Debug */,
+				E9F8F4AE1E09DE3D002DAF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F8F4921E09DE3D002DAF99 /* Project object */;
+}
